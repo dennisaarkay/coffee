@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+ background-color: #111315; 
+ font-family: "DM Sans", sans-serif;
+}
+
+.container{
+   
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.card-container{
+  
+  background-color: #1B1D1F;
+  position: absolute;
+  top: 50%; 
+  left: 10%; 
+  width: 80%; 
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 20px;
+}
+.container .background {
+   width: 100%;
+   height: 60%;
+}
+.card-container .description {
+ width: 38%;
+ color: grey;
+ margin-bottom: 20px;
+ margin-top: -20px;
+}
+h2{
+  font-family: "DM Sans", sans-serif;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+h3{
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+
+}
+.card-container .header{
+  color: white;
+  
+}
+span{
+  color: white;
+  margin-top: 20px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+.card-container .all{
+  background-color: grey;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+.spans-container {
+  display: flex;
+  margin-top: 20px; /* Add margin between h3 and spans */
+  margin-bottom: 20px;
+}
+@media screen and (max-width:641px) {
+  .card-container .description{
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+}
